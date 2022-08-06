@@ -1,0 +1,15 @@
+nav{
+    background-color: royalblue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav > .link {
+    text-decoration: none;
+    color: white;
+    font-size: 33px;
+}
+nav > h1{
+    font-size: 40px;
+}

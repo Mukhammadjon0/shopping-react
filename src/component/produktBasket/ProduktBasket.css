@@ -1,0 +1,12 @@
+.product_basket{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 15px;
+}
+.product_basket > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
