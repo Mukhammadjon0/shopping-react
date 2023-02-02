@@ -23,7 +23,7 @@ function Logi() {
     );
     if (user) {
       dispatch(getUser(user));
-      localStorage.setItem("user",JSON.stringify(user))
+      localStorage.setItem("user", JSON.stringify(user))
       navigate("/");
     } else {
       setText("parol yoki email hato");

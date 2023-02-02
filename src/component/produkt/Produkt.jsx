@@ -7,9 +7,9 @@ import "./product.css";
 
 function Produkt({ id, title, image, price, product }) {
   // const [son, setSon] = useState(1)
-  
+
   const dispatch = useDispatch();
-  const navigate = useNavigate();  
+  const navigate = useNavigate();
 
   const getDetail = () => {
     navigate(`/productDetail/${id}`);
@@ -30,8 +30,8 @@ function Produkt({ id, title, image, price, product }) {
       <img onClick={getDetail} src={image} alt={title} />
       <h1>{title}</h1>
       <h2>{price}</h2>
-      
-      <button onClick={chooseBtn}>kiritish</button>
+
+      <button onClick={chooseBtn}>Add to basket</button>
     </div>
   );
 }

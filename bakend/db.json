@@ -31,11 +31,10 @@
   ],
   "users": [
     {
-      "name": "abu",
-      "email": "abu@mail.ru",
-      "password": "123",
+      "name": "Muhammadjon",
+      "email": "m@gmail.com",
+      "password": "1234",
       "id": 1
     }
-   
   ]
 }

@@ -21,7 +21,6 @@ function App() {
     const userr = JSON.parse(localStorage.getItem("user"));
     dispatch(getUser(userr));
   }, []);
-  console.log("helllo")
   return (
     <div className="App">
       <Navbar />

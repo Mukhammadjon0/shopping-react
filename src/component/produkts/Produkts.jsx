@@ -10,7 +10,7 @@ function Produkts() {
       {isLoading && <h2>Loading...</h2>}
       <div className="data_map">
         {isSuccess &&
-          data.map((product) => <Produkt key={product.id} {...product}  product={product}/>)}
+          data.map((product) => <Produkt key={product.id} {...product} product={product} />)}
       </div>
     </div>
   );
